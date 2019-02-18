@@ -18,17 +18,17 @@ kill -SIGUSR1 [process id de la aplicación]
 
 ### Links utiles
 
-[Manejo de Señales en C](https://www.geeksforgeeks.org/signals-c-language/)
-[man waitpid](https://linux.die.net/man/2/waitpid)
-[fork](https://www.geeksforgeeks.org/fork-system-call/)
-
+- [Manejo de Señales en C](https://www.geeksforgeeks.org/signals-c-language/)
+- [man waitpid](https://linux.die.net/man/2/waitpid)
+- [fork](https://www.geeksforgeeks.org/fork-system-call/)
+- [stack vs heap](http://net-informations.com/faq/net/stack-heap.htm)
 
 ## TODO
 
 - [ ] Diagrama de flujo?
 - [x] Manejo de Señales
 - [x] Manejo de Procesos
-- Comunicación entre Procesos
+- [ ] Comunicación entre Procesos
   - [ ] via socket
   - [ ] via named-fifo
 - [ ] Documentar todo

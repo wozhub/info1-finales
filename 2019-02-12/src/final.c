@@ -6,6 +6,12 @@ int main() {
     ppid = getpid();
     pid = ppid;
 
+    // Probando la transmisión FIFO < EOF
+    fifo_transmitir();
+
+    exit(0);
+    // EOF
+
     // Defino la señal que voy a esperar y la función para tratarla
     signal(SIGUSR1, handler); 
 
