@@ -1,4 +1,5 @@
 SOURCES:= $(wildcard src/*.c)
 
-final: 
+final:
+	mkdir -p bin
 	gcc -o bin/final.bin $(SOURCES)
